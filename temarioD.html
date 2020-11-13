@@ -2,11 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" initial-scale=1.0" />
+    <meta name="viewport" initial-scale="1.0" />
     <title>curso javascript junior</title>
   </head>
-  <style></style>
+  <style>
+    body {
+      font-family: sans-serif;
+      color: rgb(112, 16, 16);
+    }
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .flex-item:hover {
+      border-color: orange;
+      box-shadow: 0px 0px 30px red;
+    }
+    .flex-item:focus {
+      border-color: orange;
+      box-shadow: 0px 0px 30px red;
+    }
+
+    .flex-item {
+      flex-grow: 1;
+      margin: 20px;
+      max-width: 300px;
+      border: 2px solid #555;
+      padding: 0 20px;
+    }
+  </style>
   <body>
+    <!--<p id="parrafo1">sigueme en @diego.shagui</p>
+    <p class="parrafo2">hola mundo</p>
+    <p class="parrafo2">hola mundo</p>
+    <p class="parrafo2">hola mundo</p>
+    <p class="parrafo2">hola mundo</p>
+    <p class="parrafo2">hola mundo</p>
+
+    <input type="range" class="rangoEtario" />
+    <label>Rango de Edad</label>
+  -->
+
+    <!--
+    <h1 class="titulo pequeño">este es un titulo</h1>
+-->
+
+    <!--   <form>
+      <input type="file" class="input-normal" value="12" />
+      <input type="input" class="input-normal2" />
+      <button type="submit">submit</button>
+    </form>
+  -->
+    <!--
+    <div class="contenedor">
+      <h2 class="h2">Un titulo h2 comun</h2>
+      <h4 class="h4">un titulo h4 comun</h4>
+      <p class="p">un simple parrafo</p>
+    </div>
+  -->
+    <div class="flex-container"></div>
+    <form>
+      <input type="submit" name="data" value="comprar" />
+    </form>
     <script src="temarioDalto2.js"></script>
   </body>
 </html>

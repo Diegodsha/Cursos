@@ -249,7 +249,7 @@ function sumar (numero1, numero2) {
 let resultado = sumar(10,15);
 alert (resultado)
 */
-// funcion flecha....
+// funcion flecha------------------------------------------------
 /*
 const saludar = (nombre)=>{
     document.write (`hola ${nombre}, como estas?`)
